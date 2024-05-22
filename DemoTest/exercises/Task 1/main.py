@@ -15,3 +15,6 @@ users = [
   { "id": '8', "name": 'Simon Peterson', "age": 30, "hasDog": False },
   { "id": '9', "name": 'Daniel Cane', "age": 51, "hasDog": True },
 ]
+
+dog_owners = [user for user in users if user['hasDog']]
+print(dog_owners)
