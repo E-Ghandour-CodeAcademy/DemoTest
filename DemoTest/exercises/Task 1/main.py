@@ -18,3 +18,6 @@ users = [
 
 dog_owners = [user for user in users if user['hasDog']]
 print(dog_owners)
+
+adults = [user for user in users if user['age'] >= 18]
+print(adults)
